@@ -1,0 +1,153 @@
+.section-contact {
+    max-width: 1135px;
+    height: 868px;
+    margin-bottom: 30px;
+    
+  }
+  .contact-title {
+    margin: 0px 0px 30px 0px;
+  }
+  .section-contact-content {
+    display: flex;
+    margin-bottom: 65px;  
+    /* position: absolute; */
+  }
+  .section-about__title {
+  }
+  .section-maps {
+    position: absolute;
+    width: 940px;
+    height: 783px;
+    z-index: 1;
+    border-radius: 20px;
+  }
+  .maps-block {
+    max-width: clamp(20rem, 5.818rem + 70.91vw, 59rem);
+    height: 783px;
+    // style="max-width: 944px; max-height: 783px;"
+  }
+  .informations-blocks {
+    position: relative;
+    top: 50px;
+    left: 770px;
+    max-width: clamp(5rem, -1.591rem + 32.95vw, 23.125rem);
+    height: 674px;
+    z-index: 2;
+    background: #32543F;
+    border-radius: 20px;
+  
+  }
+  .address-block p {
+    max-width: 356.31px;
+    height: 58px;
+    left: 948.64px;
+    top: 3530px;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.489rem + 0.68vw, 1rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 13px 0px 20px 35px;
+  }
+  .address-block h2 {
+    max-width: 109.86px;
+    height: 26px;
+    left: 948.92px;
+    top: 3491px;
+    font-weight: 500;
+    font-size: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 62px 250px 0px 35px;
+    color: #FFFFFF;
+  }
+  .address-block__line {
+    width: 300px;
+    height: 0px;
+    margin: 30px 0px 0px 35px;
+    border: 1px solid #42AAFF;
+  }
+  .contact-block h2 {
+    width: 109.86px;
+    height: 26px;
+    left: 948.92px;
+    top: 3491px;
+    font-weight: 500;
+    font-size: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 45px 250px 0px 35px;
+    color: #FFFFFF;
+  }
+  .contact-block p {
+    width: 249.42px;
+    height: 24px;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.489rem + 0.68vw, 1rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 13px 0px 0px 35px;
+  }
+  .logo1 {
+    width: 37.61px;
+    height: 38px;
+    margin: 13px 0px 0px 35px;
+  }
+  .contact-block__line {
+    width: 300px;
+    height: 0px;
+    margin: 30px 0px 0px 35px;
+    border: 1px solid #42AAFF;
+  }
+  .workingHours {
+    width: 359.86px;
+    height: 26px;
+  }
+  .workingHours h2 {
+    width: 359.86px;
+    height: 26px;
+    left: 948.92px;
+    top: 3491px;
+    font-weight: 500;
+    font-size: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 45px 250px 0px 35px;
+    color: #FFFFFF;
+  }
+  .workingHours p {
+    width: 356.31px;
+    height: 22px;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.489rem + 0.68vw, 1rem);
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 13px 0px 0px 35px;
+  }
+  @media screen and (max-width: 922px) {
+    .section-contact  {
+    display: flex;
+    flex-direction: column;
+    // gap: 25px;
+    // align-items: center;
+    }
+    
+    .informations-blocks {
+    
+    }
+  }
+    .section-contact {
+      display: flex;
+      flex-direction: column;
+    }
