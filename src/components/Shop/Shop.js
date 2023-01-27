@@ -5,7 +5,6 @@ import shop03 from '../../img/shop03.jpg';
 
 const Shop = () => {
     return (
-        <div className="container">
         <section className="shop">
         <h2 className="shop-title block-title">— Магазин</h2>
         <div className="shop-cart">
@@ -33,7 +32,6 @@ const Shop = () => {
         </div>
         <button className="shop-btn">перейти в магазин</button>
     </section>
-    </div>
     );
 }
  

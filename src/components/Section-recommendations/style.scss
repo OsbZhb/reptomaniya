@@ -1,0 +1,39 @@
+.section-recommendations {
+    margin: 0 0 40px 0;
+  }
+  .recommendations-title {
+    margin-bottom: 30px;
+    
+  }
+  .title-block_memo {
+    width: 1000px;
+    height: 67px;
+    font-weight: 600;
+    font-size: clamp(1.05rem, 0.795rem + 2.27vw, 2.5rem);
+    line-height: 50px;
+    /* or 125% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -1px;
+    
+    color: #000000;
+  }
+  
+  .memo-blocks {
+    // width: 1135px;
+    // height: 842px;
+  }
+  
+  .memo-block {
+    margin: 30px 0 30px;
+    left: 127px;
+    top: 4388px;
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    p {
+      font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+    }
+  }

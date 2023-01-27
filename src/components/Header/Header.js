@@ -3,8 +3,8 @@ import './script';
 
 const Header = () => {
     return (
-        <div className="container">
         <header className="header">
+        <div className="container">
         <div className="wrapper">
             <button class="header__burger-btn" id="burger">
                 <span></span><span></span><span></span>
@@ -46,8 +46,8 @@ const Header = () => {
                 </ul>
             </div>
         </div>
+        </div>
     </header>
-    </div>
     );
 }
  

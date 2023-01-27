@@ -1,16 +1,18 @@
 import './style.scss';
 import logoVK from '../../img/logoVK.svg';
+// import YandexMap from './YandexMap';
 
 const Contact = () => {
     return (
         <section className="section-contact" >
-        <h2 className="contact-title block-title">— КОНТАКТЫ</h2>
+        <h2 className="contact-title block-title"> — КОНТАКТЫ</h2>
         <div className="section-block-all">
             <div className="section-contact-content">
                 <div className="section-maps">
-                    <div className="maps-block" id="YMapsID">
+                    {/* <div className="maps-block" id="YMapsID">
+                        
                         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afbc78479c9009cfc67ae439b180ae0be4aa63b6fba40d465b6db949a60a565bc&amp;lang=ru_RU&amp;scroll=true"></script>
-                    </div>
+                    </div> */}
                 </div>
                     <div className="informations-blocks">
                         <div className="address-block">

@@ -3,7 +3,6 @@ import smallFriends from '../../img/smallFriends.jpg';
 
 const SmallFriends = () => {
     return (
-        <div className="container">
         <section className="section-smallFriends">
         <div className="smallFriends-blockOne">
             <h1 className="blockOne-title">Маленькое существо для самой большой дружбы</h1>
@@ -22,7 +21,6 @@ const SmallFriends = () => {
             />
         </div>
     </section>
-    </div>
     );
 }
  

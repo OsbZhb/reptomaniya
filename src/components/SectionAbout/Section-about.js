@@ -4,7 +4,6 @@ import aboutPhoto from '../../img/about_photo.jpg';
 
 const SectionAbout = () => {
     return (
-        <div className="container">
         <section class="section-about">
         <h2 class="about-title block-title">— О нас</h2>
         <div class="about-images">
@@ -25,7 +24,6 @@ const SectionAbout = () => {
             </div>
         </div>
     </section>
-    </div>
     );
 }
  
