@@ -1,18 +1,18 @@
 .section-recommendations {
     margin: 0 0 40px 0;
+    h2 {
+      font-size: clamp(1rem, 0.864rem + 0.68vw, 1.375rem);
+    }
   }
   .recommendations-title {
     margin-bottom: 30px;
     
   }
   .title-block_memo {
-    width: 1000px;
-    height: 67px;
+    max-width: 1000px;
     font-weight: 600;
-    font-size: clamp(1.05rem, 0.795rem + 2.27vw, 2.5rem);
-    line-height: 50px;
-    /* or 125% */
-    
+    font-size: clamp(1rem, 0.568rem + 2.16vw, 2.188rem);
+    line-height: 40px;
     display: flex;
     align-items: center;
     letter-spacing: -1px;

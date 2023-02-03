@@ -1,12 +1,13 @@
-import Videos from "./components/Block_video/Video";
 import Header from "./components/Header/Header";
-import Reviews from "./components/Reviews/Reviews";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Section-contact/Contact";
 import Recommendation from "./components/Section-recommendations/Recommendations";
 import ReptileFriends from "./components/Section-reptileFriends/ReptileFriends";
 import SmallFriends from "./components/Section-smallFriends/SmallFriends";
 import SectionAbout from "./components/SectionAbout/Section-about";
 import Shop from "./components/Shop/Shop";
+import Footer from "./components/Footer/Footer";
+import SectionVideo from "./components/SectionVideo/SectionVideo";
 
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
       <SmallFriends />
       <Shop />
       <ReptileFriends />
-      <Contact />
+      {/* <Contact /> */}
       <Recommendation />
-      <Videos />
-      <Reviews />
+      <SectionVideo />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,10 @@
     margin-bottom: 65px;
     gap: 105px;
   }
-  .reptileFriends_images img{
+  .reptileFriends_images {
+    text-align: center;
+  }
+  img{
     max-width: clamp(18.75rem, 13.523rem + 26.14vw, 33.125rem);
     // height: 564px;
     left: 117px;
@@ -12,7 +15,7 @@
     
   }
   .reptileFriends_text {
-    // max-width: 531px;
+    max-width: 529px;
     // height: 568px;
     
   }
@@ -43,9 +46,6 @@
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    }
-    .reptileFriends_text {
-        max-width: 350px;
     }
     .reptileFriends_text h2 {
       font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);

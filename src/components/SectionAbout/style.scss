@@ -33,13 +33,17 @@
     line-height: 30px;
   
     color: rgba(0, 0, 0, 0.9);
+    p {
+      font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+    }
   }
   .about-img_two {
     border-radius: 30px;
   }
   .about-text__item {
     max-width: 529px;
-    margin: 40px 0px 0px 10px;
+    margin: 40px 0px 0px 0px;
+
   }
   .about-btn {
     width: 184px;
@@ -51,7 +55,7 @@
     position: relative;
     /* left: 50%; */
     /* transform: translate(-50%, 0); */
-    margin: 48px 0px 0px 10px;
+    margin: 48px 0px 0px 0px;
     
   }
   @media screen and (max-width: 922px) {
@@ -60,5 +64,11 @@
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    } 
+    .block-two {
+      margin-left: 0px;
+    }
+    .section-about {
+      
+    }
+  } 
   }
