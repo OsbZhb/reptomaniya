@@ -16,29 +16,28 @@ const SectionVideo = () => {
     <div class="videos-title">
       <h1 class="IntroductoryVideos__title">Ознакомительные видео</h1>
     </div>
-    <Swiper
+    <Swiper className="mySwiper_2"
       pagination={{
         type: "progressbar",
       }}
       navigation={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
     >
-      <SwiperSlide>
+      <SwiperSlide className="mySwiper_2">
         <iframe src="https://www.youtube.com/embed/4p77CX5izSs"></iframe>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="mySwiper_2">
         <iframe src="https://www.youtube.com/embed/-n2Dvxuq2SU"></iframe>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="mySwiper_2">
         <iframe src="https://www.youtube.com/embed/xai7CssHiLc"></iframe>
       </SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      <SwiperSlide>Slide 5</SwiperSlide>
-      <SwiperSlide>Slide 6</SwiperSlide>
-      <SwiperSlide>Slide 7</SwiperSlide>
-      <SwiperSlide>Slide 8</SwiperSlide>
-      <SwiperSlide>Slide 9</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 4</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 5</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 6</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 7</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 8</SwiperSlide>
+      <SwiperSlide className="mySwiper_2">Slide 9</SwiperSlide>
     </Swiper>
   </>
   </section>
