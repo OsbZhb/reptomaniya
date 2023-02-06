@@ -1,6 +1,8 @@
-import './style.scss';
-import logoVK from '../../img/logoVK.svg';
-// import YandexMap from './YandexMap';
+import React from "react";
+import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
+import "./style.scss";
+
+import LogoVK from "../../img/logoVK.svg";
 
 const Contact = () => {
     return (
@@ -9,10 +11,24 @@ const Contact = () => {
         <div className="section-block-all">
             <div className="section-contact-content">
                 <div className="section-maps">
-                    {/* <div className="maps-block" id="YMapsID">
-                        
-                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afbc78479c9009cfc67ae439b180ae0be4aa63b6fba40d465b6db949a60a565bc&amp;lang=ru_RU&amp;scroll=true"></script>
-                    </div> */}
+                    <div className="maps-block" id="YMapsID">
+                    <YMaps className="YMaps">
+                    <Map
+                        defaultState={{
+                            center: [57.694016, 39.771836],
+                            zoom: 15.4,
+                            behaviors: ["default", "scrollZoom"],
+
+                            title: "Железнодорожная станция"
+                        }}
+                        width="clamp(20rem, 5.818rem + 70.91vw, 59rem)"
+                        height="783px"
+                        border-radius="25px"
+        >
+                        <Placemark defaultGeometry={[57.694016, 39.771840]} />
+                    </Map>
+                    </YMaps>  
+                    </div>
                 </div>
                     <div className="informations-blocks">
                         <div className="address-block">
@@ -27,9 +43,7 @@ const Contact = () => {
                             <div className="logo1">
                                 <a href="ссылка_на_главную">
                                 <img 
-                                    src={logoVK} 
-                                    width="327"
-                                    height="38"
+                                    src={LogoVK} 
                                     alt="#"
                                 />
                                 </a>

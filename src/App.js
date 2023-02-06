@@ -18,7 +18,7 @@ function App() {
       <SmallFriends />
       <Shop />
       <ReptileFriends />
-      {/* <Contact /> */}
+      <Contact />
       <Recommendation />
       <SectionVideo />
       <Testimonials />
