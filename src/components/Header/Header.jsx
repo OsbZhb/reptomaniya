@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa";
 import './style.scss';
 
@@ -13,18 +14,18 @@ function Header() {
 		<header>
 			<div className="nav-menu__logo">
                 <p className="menu-logo__title">
-                    Рептомания
+					<Link to="/">Рептомания</Link>
                 </p>
                 <p className="menu-logo__subtitle">
                     частный питомник экзотических животных
                 </p>
             </div>
 			<nav ref={navRef}>
-				<a href="/#">О нас</a>
-				<a href="/#">Магазин</a>
-                <a href="/#">Контакты</a>
-				<a href="/#">Рекомендации</a>
-				<a href="/#">Отзывы</a>
+				<Link to="/#">О нас</Link>
+				<Link to="/ShopPages">Магазин</Link>
+                <Link to="/#">Контакты</Link>
+				<Link to="/#">Рекомендации</Link>
+				<Link to="/#">Отзывы</Link>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

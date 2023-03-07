@@ -1,5 +1,6 @@
 .section-smallFriends{
     display: flex;
+    // flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 110px;
     align-items: flex-start
@@ -81,12 +82,20 @@
     max-width: clamp(18.75rem, 11.682rem + 35.34vw, 38.188rem);
     border-radius: 20px;
   }
+
+  .bg_img_2 {
+    width: 530px;
+    height: 19px;
+    position: relative;
+    left: 0%;
+    top: -400px;
+  }
   
   @media screen and (max-width: 922px) {
     .section-smallFriends {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 75px;
     align-items: center;
     }
     .blockOne-title {
@@ -96,4 +105,3 @@
       
     }
   }
-  

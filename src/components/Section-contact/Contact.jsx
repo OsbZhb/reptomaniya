@@ -9,27 +9,26 @@ const Contact = () => {
         <section className="section-contact" >
         <h2 className="contact-title block-title"> — КОНТАКТЫ</h2>
         <div className="section-block-all">
-            <div className="section-contact-content">
+            {/* <div className="section-contact-content"> */}
                 <div className="section-maps">
                     <div className="maps-block" id="YMapsID">
-                    <YMaps className="YMaps">
-                    <Map
-                        defaultState={{
-                            center: [57.694016, 39.771836],
-                            zoom: 15.4,
-                            behaviors: ["default", "scrollZoom"],
+                        <YMaps className="YandexMaps">
+                        <Map
+                            defaultState={{
+                                center: [57.694016, 39.771836],
+                                zoom: 15.4,
+                                behaviors: ["default", "scrollZoom"],
 
-                            title: "Железнодорожная станция"
-                        }}
-                        width="clamp(20rem, 5.818rem + 70.91vw, 59rem)"
-                        height="783px"
-                        border-radius="25px"
-        >
-                        <Placemark defaultGeometry={[57.694016, 39.771840]} />
-                    </Map>
-                    </YMaps>  
+                                title: "Железнодорожная станция"
+                            }}
+                            width="100%"
+                            height="100%"
+                            >
+                            <Placemark defaultGeometry={[57.694016, 39.771840]} />
+                        </Map>
+                        </YMaps>  
                     </div>
-                </div>
+                
                     <div className="informations-blocks">
                         <div className="address-block">
                             <h2>Адрес</h2>

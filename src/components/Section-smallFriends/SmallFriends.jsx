@@ -1,5 +1,6 @@
 import './style.scss';
 import smallFriends from '../../img/smallFriends.jpg';
+import bg_img_2 from "../../img/background/03.png"
 
 const SmallFriends = () => {
     return (
@@ -20,6 +21,12 @@ const SmallFriends = () => {
                 alt="#" 
             />
         </div>
+        {/* <div className="bg_img_2">
+            <img 
+                src={bg_img_2}
+                alt="#"
+            />
+        </div> */}
     </section>
     );
 }

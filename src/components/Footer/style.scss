@@ -44,7 +44,9 @@
     color: #000000;
   }
   .footer-menu__item {
-    
+    a {
+        color: #000000;
+    }
   }
 
   @media (max-width: 1160px) {

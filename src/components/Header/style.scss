@@ -46,10 +46,15 @@ nav {
 nav a {
 	font-size: 18px;
 }
+
+nav a:hover {
+	color: #ffee00;
+	transition: all 500ms ease; 
+}
+
 .nav-menu__logo {
 	margin: 20px 0 0 20px;
 	text-align: center;
-	// display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	display: flex;
@@ -63,13 +68,24 @@ nav a {
 	font-size: clamp(1rem, 0.591rem + 2.05vw, 2.125rem);
 	line-height: 15px;
 	letter-spacing: 10px;
-	color: #000000;
+	
+	 a {
+		color: #000000;
+	}
+	 a:hover {
+		color: #ffee00;
+		transition: all 500ms ease; 
+	 }
   }
   .menu-logo__subtitle {
 	font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
   }
-
-@media only screen and (max-width: 1024px) {
+  .menu-logo__subtitle:hover {
+	color: #ffee00;
+	transition: all 500ms ease;
+  }
+ 
+  @media only screen and (max-width: 1024px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;

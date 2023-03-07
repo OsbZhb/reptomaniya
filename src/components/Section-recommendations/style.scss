@@ -11,7 +11,7 @@
   .title-block_memo {
     max-width: 1000px;
     font-weight: 600;
-    font-size: clamp(1rem, 0.568rem + 2.16vw, 2.188rem);
+    font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
     line-height: 40px;
     display: flex;
     align-items: center;
@@ -37,3 +37,16 @@
       font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .section-recommendations {
+      max-width: 75%;
+    .memo-blocks {
+      margin-left: 20%;
+    }
+    .title-block_memo {
+      margin-left: 20%;
+    }
+    }
+  }
+

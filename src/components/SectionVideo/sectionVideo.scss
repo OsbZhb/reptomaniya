@@ -18,18 +18,17 @@
 }
 .swiper-horizontal.swiper-pointer-events.mySwiper_2 {
   height: 700px;
+  border-radius: 15px;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  
-
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .swiper-slide iframe {

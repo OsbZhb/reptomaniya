@@ -1,7 +1,10 @@
+import { NavLink } from "react-router-dom"
+
 import './style.scss';
 import shop01 from '../../img/shop01.jpg';
 import shop02 from '../../img/shop02.jpg';
 import shop03 from '../../img/shop03.jpg';
+import ShopPages from "../pages/ShopPages";
 
 const Shop = () => {
     return (
@@ -30,9 +33,17 @@ const Shop = () => {
                 />
             </div>
         </div>
-        <button className="shop-btn">перейти в магазин</button>
+        <button className="shop-btn">
+            {/* <Link to='/ShopPages'>
+                Перейти в магазин
+            </Link> */}
+            <NavLink to='/ShopPages'
+              className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Перейти в магазин</NavLink>
+        </button>
     </section>
     );
 }
+
  
 export default Shop;

@@ -1,29 +1,29 @@
+/* eslint-disable react/jsx-no-undef */
+
+// COMPONENTS
+import { Routes, Route} from "react-router-dom";
+
 import Header from "./components/Header/Header";
-import Testimonials from "./components/Testimonials/Testimonials";
-import Contact from "./components/Section-contact/Contact";
-import Recommendation from "./components/Section-recommendations/Recommendations";
-import ReptileFriends from "./components/Section-reptileFriends/ReptileFriends";
-import SmallFriends from "./components/Section-smallFriends/SmallFriends";
-import SectionAbout from "./components/SectionAbout/Section-about";
-import Shop from "./components/Shop/Shop";
 import Footer from "./components/Footer/Footer";
-import SectionVideo from "./components/SectionVideo/SectionVideo";
+import GeneralComponents from "./components/GeneralComponents/GeneralComponents";
+
+// PAGES
+import ShopPages from "./components/pages/ShopPages.jsx";
+import MainLayout from "./components/pages/MainLayout";
+
 
 
 function App() {
   return (
     <div className="App container">
       <Header />
-      <SectionAbout />
-      <SmallFriends />
-      <Shop />
-      <ReptileFriends />
-      <Contact />
-      <Recommendation />
-      <SectionVideo />
-      <Testimonials />
+      <Routes>
+        {/* <Route path="/" element={<MainLayout/>} /> */}
+        <Route path="/" element={<GeneralComponents/>} />
+          <Route path="ShopPages" element={<ShopPages/>} />
+        </Routes>
       <Footer />
-    </div>
+      </div>
   );
 }
 

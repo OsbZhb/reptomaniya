@@ -1,4 +1,16 @@
 // SECTION 1
+.bg_img_1 {
+  width: 530px;
+  height: 19px;
+  position: relative;
+  left: 60%;
+  top: -220px;
+  img {
+
+  }
+
+}
+
 
 .section-about {
     margin-bottom: 85px;
@@ -58,17 +70,31 @@
     margin: 48px 0px 0px 0px;
     
   }
-  @media screen and (max-width: 922px) {
+  @media screen and (max-width: 1070px) {
     .about-images {
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
     .block-two {
-      margin-left: 15px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      .about-img_two {
+        display: none;
+      }
     }
-    .section-about {
-      
+    .about-img_one {
+      margin-right: 0px;
     }
+    
   } 
+  .bg_img_1 img {
+    display: none;
+    left: 110%;
+    position: absolute;
   }
+  }
+
