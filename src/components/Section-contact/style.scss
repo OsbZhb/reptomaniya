@@ -112,11 +112,11 @@
     border: 1px solid #42AAFF;
   }
   .workingHours {
-    width: 359.86px;
+    max-width: 359.86px;
     height: 26px;
   }
   .workingHours h2 {
-    width: 359.86px;
+    // width: 359.86px;
     height: 26px;
     left: 948.92px;
     top: 3491px;
@@ -129,7 +129,7 @@
     color: #FFFFFF;
   }
   .workingHours p {
-    width: 356.31px;
+    // width: 356.31px;
     height: 22px;
     font-weight: 400;
     font-size: clamp(0.625rem, 0.489rem + 0.68vw, 1rem);
@@ -182,6 +182,44 @@
     max-width: 1135px;
     height: 1588px;
     margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .section-maps {
+    display: flex;
+    max-width: 500px;
+    /* margin-left: 15%; */
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+  }
+  .maps-block {
+    width: 90%;
+    height: 70%;
+  }
+  .section-block-all {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .informations-blocks {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // top: 50px;
+    max-width: clamp(14.375rem, 4.284rem + 50.45vw, 42.125rem);
+    height: 674px;
+    background: #32543F;
+    margin-bottom: 30px;
+    h2 {
+      font-size: clamp(0.5rem, 0.409rem + 0.45vw, 0.75rem);
+    }
+  }
+  .section-contact {
+  max-width: 500px;
+  height: 1588px;
+  margin-bottom: 30px;
 }
 }
     
