@@ -40,12 +40,27 @@
 
   @media screen and (max-width: 800px) {
     .section-recommendations {
-      max-width: 75%;
+      max-width: 90%;
+      padding: 0 15px;
     .memo-blocks {
       margin-left: 20%;
     }
     .title-block_memo {
       margin-left: 20%;
+    }
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .section-recommendations {
+      max-width: 90%;
+      padding: 0 15px;
+    .memo-blocks {
+      margin-left: 0%;
+    }
+    .title-block_memo {
+      margin-left: 0%;
+      max-width: 300px;
     }
     }
   }
