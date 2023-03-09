@@ -18,7 +18,7 @@ const GeneralComponents = () => {
         <Shop />
         <ReptileFriends />
         {/* <Contact /> */} 
-        <Recommendation />
+        {/* <Recommendation /> */}
         <SectionVideo />
         <Testimonials />
         </>
