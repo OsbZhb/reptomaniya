@@ -108,11 +108,11 @@
     border: 1px solid #42AAFF;
   }
   .workingHours {
-    max-width: 259.86px;
+    max-width: 359.86px;
     height: 26px;
   }
   .workingHours h2 {
-    width: 259.86px;
+    max-width: 259.86px;
     height: 26px;
     left: 948.92px;
     top: 3491px;
@@ -167,7 +167,7 @@
       height: 30%;
     }
     .section-contact-content {
-      // max-width: 1135px;
+      max-width: 1135px;
       height: 1588px;
       margin-bottom: 30px;
     }
@@ -183,7 +183,7 @@
       margin-bottom: 30px;
     }
     .section-contact {
-    // max-width: 1135px;
+    max-width: 1135px;
     height: 1188px;
     margin-bottom: 30px;
 }

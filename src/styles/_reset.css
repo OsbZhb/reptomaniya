@@ -5,6 +5,9 @@
 	border: none;
 	
 }
+body {
+	margin: 0px;
+}
 
 *,
 *::before,
