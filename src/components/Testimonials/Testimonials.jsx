@@ -27,7 +27,7 @@ export default function App() {
       <Swiper className="mySwiper_1"
         onSwiper={setSwiperRef}
         slidesPerView={3}
-        centeredSlides={true}
+        centeredSlides={false}
         spaceBetween={30}
         pagination={{
           type: "fraction",
