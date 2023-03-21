@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa";
 import './style.scss';
+import headerLine from '../../img/img_line.PNG';
 
 function Header() {
 	const navRef = useRef();
@@ -14,8 +15,11 @@ function Header() {
 		<header>
 			<div className="nav-menu__logo">
                 <p className="menu-logo__title">
-					<Link to="/">Рептомания</Link>
+					<Link to="">Рептомания</Link>
                 </p>
+				<div className="menu-logo__line">
+					<img src={headerLine} alt="" />
+				</div>
                 <p className="menu-logo__subtitle">
                     частный питомник экзотических животных
                 </p>
