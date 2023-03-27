@@ -11,7 +11,7 @@ const Footer = () => {
                 частный питомник экзотических животных
             </p>
         </div>
-        <div class="footer-menu">
+        {/* <div class="footer-menu">
             <ul class="footer-menu__items">
               <li class="footer-menu__item"><a href="#">О нас</a></li>
               <li class="footer-menu__item"><a href="#">Магазин</a></li>
@@ -19,6 +19,10 @@ const Footer = () => {
               <li class="footer-menu__item"><a href="#">Рекомендации</a></li>
               <li class="footer-menu__item"><a href="#">Отзывы</a></li>
             </ul>
+        </div> */}
+        <div className="footer-address">
+            <p>Ленинградский просп., 64, Ярославль</p>
+            <p>+7 (961) 162-03-88</p>
         </div>
     </footer> 
     );

@@ -15,7 +15,7 @@ const Shop = () => {
                 <h1>КОРМ</h1>
                 <img
                     src={shop01}
-                    alt="#" 
+                    alt="#"
                 />
             </div>
             <div className="shop-cart_item">
