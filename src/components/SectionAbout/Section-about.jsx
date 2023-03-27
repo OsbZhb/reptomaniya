@@ -12,11 +12,10 @@ import bg_img_1 from '../../img/background/01.png';
 // import slide_4 from '../../img/slider/image-4.jpg';
 
 const slides = [
-    { src: "https://2.downloader.disk.yandex.ru/preview/07326f6cc07e87684a05448909f2ffc485ff8e99c7fe6d57b313501bcb2f4074/inf/uYbCDfzCt5AL-nc5TcQyb3ANMesTZiMvQrJ1aLGrKvIG4XVKUVAcJoWGApocHxvIeUQIAc4eoCgtiri4AIqBQg%3D%3D?uid=344260561&filename=image-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969", title: "beach" },
-    { src: "https://1.downloader.disk.yandex.ru/preview/9c868dd3121b997f24a4af2a0fedde87e3fdd0fc96829d28b816fccf4fb9672b/inf/WZcvZcqBE2c9fapOCrJcM3ANMesTZiMvQrJ1aLGrKvIigCNRuEQcZYS5VnIS8lg8Q2i4E3c9LPOhO8nl7KTwpg%3D%3D?uid=344260561&filename=image-2.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969", title: "boat" },
-    { src: "https://2.downloader.disk.yandex.ru/preview/495c409c8e39937e9e12ae6af31531a662daf94a6dda3acc72d917e644aa2f57/inf/w4WzpDBtOkj9oOPFrRJEBXANMesTZiMvQrJ1aLGrKvIzRIp9Ql8oEiLctPIuO3GjeVxKVhFzzLu3mhGg7iwMmg%3D%3D?uid=344260561&filename=image-3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969", title: "forest" },
-    { src: "https://3.downloader.disk.yandex.ru/preview/a0da47dcac22b3cbc33fda633dcbbf6aa7a049236b9394e60e445c06a5fb22dc/inf/n--3NS6C0QPl9XlALWtsPXANMesTZiMvQrJ1aLGrKvLvHAwNg4p6l_nRFJZMVPOAX-hjTRPfLU2s-JBa_PHOEw%3D%3D?uid=344260561&filename=image-4.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969", title: "city" },
-    // { src: "https://picsum.photos/seed/img1/600/400", title: "italy" },
+    { src: "https://2.downloader.disk.yandex.ru/preview/07326f6cc07e87684a05448909f2ffc485ff8e99c7fe6d57b313501bcb2f4074/inf/uYbCDfzCt5AL-nc5TcQyb3ANMesTZiMvQrJ1aLGrKvIG4XVKUVAcJoWGApocHxvIeUQIAc4eoCgtiri4AIqBQg%3D%3D?uid=344260561&filename=image-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969"},
+    { src: "https://1.downloader.disk.yandex.ru/preview/9c868dd3121b997f24a4af2a0fedde87e3fdd0fc96829d28b816fccf4fb9672b/inf/WZcvZcqBE2c9fapOCrJcM3ANMesTZiMvQrJ1aLGrKvIigCNRuEQcZYS5VnIS8lg8Q2i4E3c9LPOhO8nl7KTwpg%3D%3D?uid=344260561&filename=image-2.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969"},
+    { src: "https://2.downloader.disk.yandex.ru/preview/495c409c8e39937e9e12ae6af31531a662daf94a6dda3acc72d917e644aa2f57/inf/w4WzpDBtOkj9oOPFrRJEBXANMesTZiMvQrJ1aLGrKvIzRIp9Ql8oEiLctPIuO3GjeVxKVhFzzLu3mhGg7iwMmg%3D%3D?uid=344260561&filename=image-3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969"},
+    { src: "https://3.downloader.disk.yandex.ru/preview/a0da47dcac22b3cbc33fda633dcbbf6aa7a049236b9394e60e445c06a5fb22dc/inf/n--3NS6C0QPl9XlALWtsPXANMesTZiMvQrJ1aLGrKvLvHAwNg4p6l_nRFJZMVPOAX-hjTRPfLU2s-JBa_PHOEw%3D%3D?uid=344260561&filename=image-4.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=344260561&tknv=v2&size=1920x969"}
   ];
 
 const SectionAbout = () => {
