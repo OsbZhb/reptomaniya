@@ -37,19 +37,19 @@ const Header_new = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to='about' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
+                        <Link to='about' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>О нас</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='shop' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
+                        <Link to='shop' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Магазин</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='contact' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Testimonials</Link>
+                        <Link to='contact' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Контакты</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='recommendations' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>recommendations</Link>
+                        <Link to='recommendations' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Рекомендации</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='reviews' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>reviews</Link>
+                        <Link to='reviews' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Отзывы</Link>
                     </li>
                 </ul>
             </nav>
