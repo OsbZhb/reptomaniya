@@ -20,7 +20,7 @@ const slides = [
 
 const SectionAbout = () => {
     return (
-        <section className="section-about">
+        <section className="section-about" id='about'>
         <h2 className="about-title block-title"> — О нас</h2>
         <div className="about-images">
             <div className="Carousel-block">

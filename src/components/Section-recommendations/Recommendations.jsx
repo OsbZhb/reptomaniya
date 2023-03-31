@@ -2,7 +2,7 @@ import './style.scss';
 
 const Recommendation = () => {
     return (
-        <section className="section-recommendations">
+        <section className="section-recommendations" id='recommendations'>
         <h2 className="recommendations-title block-title">— РЕКОМЕНДАЦИИ ПО УХОДУ</h2>
         <h1 className="title-block_memo">Памятка по содержанию пятнистого эублефара</h1>
             <div className="memo-blocks">

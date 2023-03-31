@@ -19,7 +19,7 @@ export default function App() {
   const [setSwiperRef] = useState(null);
 
   return (
-    <section className="section-reviews">
+    <section className="section-reviews" id="reviews">
     <div className="reviews-title">
       <h1>Отзывы</h1>
     </div>

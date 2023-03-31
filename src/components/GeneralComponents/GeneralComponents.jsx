@@ -13,7 +13,7 @@ import SectionVideo from "../SectionVideo/SectionVideo.jsx";
 const GeneralComponents = () => {
     return (
         <>
-        <SectionAbout />
+        <SectionAbout id='about' />
         <SmallFriends />
         <Shop />
         <ReptileFriends />

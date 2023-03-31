@@ -1,199 +1,278 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
+// * {
+// 	padding: 0;
+// 	margin: 0;
+// 	box-sizing: border-box;
+// }
 
 
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 90px;
-	width: 100%;
-	padding: 0 2rem;
-	z-index: 10;
-	
-}
-
-// .header-block {
+// .header {
 // 	display: flex;
 // 	align-items: center;
 // 	justify-content: space-between;
 // 	height: 90px;
 // 	width: 100%;
-// 	// padding: 0 2rem;
+// 	padding: 0 2rem;
+// 	z-index: 10;
+	
 // }
 
-.header-fixed {
-    // width: 100%;
-    position: fixed;
-    // background-color: rgba(238,174,202,1);
-	background-color: aliceblue;
-    animation-name: header;
-    animation-duration: .2s;
-	// margin-top: -40px;
-	border-radius: 0px 0px 10px 10px;
-	// margin-right: 5%;
-	z-index: 10;
-}
-@keyframes header{
-    0%{
-    opacity: 0;
-    top: -200px;
-    }
-    100%{
-    opacity: 1;
-    top: 0;
-    }
-}
-nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
-	
-	
-}
+// // .header-block {
+// // 	display: flex;
+// // 	align-items: center;
+// // 	justify-content: space-between;
+// // 	height: 90px;
+// // 	width: 100%;
+// // 	// padding: 0 2rem;
+// // }
 
-nav a:hover {
-	color: var(--secondaryColor);
+// .header-fixed {
+//     // width: 100%;
+//     position: fixed;
+//     // background-color: rgba(238,174,202,1);
+// 	background-color: aliceblue;
+//     animation-name: header;
+//     animation-duration: .2s;
+// 	// margin-top: -40px;
+// 	border-radius: 0px 0px 10px 10px;
+// 	// margin-right: 5%;
+// 	z-index: 10;
+// }
+// @keyframes header{
+//     0%{
+//     opacity: 0;
+//     top: -200px;
+//     }
+//     100%{
+//     opacity: 1;
+//     top: 0;
+//     }
+// }
+// nav a {
+// 	margin: 0 1rem;
+// 	color: var(--textColor);
+// 	text-decoration: none;
 	
-}
-
-header .nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	outline: none;
-	color: var(--textColor);
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.8rem;
-	display: none;
 	
-}
+// }
 
-header div,
-nav {
-	display: flex;
-	align-items: center;
+// nav a:hover {
+// 	color: var(--secondaryColor);
+	
+// }
+
+// header .nav-btn {
+// 	padding: 5px;
+// 	cursor: pointer;
+// 	background: transparent;
+// 	border: none;
+// 	outline: none;
+// 	color: var(--textColor);
+// 	visibility: hidden;
+// 	opacity: 0;
+// 	font-size: 1.8rem;
+// 	display: none;
+	
+// }
+
+// header div,
+// nav {
+// 	display: flex;
+// 	align-items: center;
 	
 	
-}
-nav a {
-	font-size: 18px;
-}
+// }
+// nav a {
+// 	font-size: 18px;
+// }
 
-nav a:hover {
-	color: #ffee00;
-	transition: all 500ms ease; 
-}
+// nav a:hover {
+// 	color: #ffee00;
+// 	transition: all 500ms ease; 
+// }
 
-.nav-menu__logo {
-	margin: 20px 0 0 20px;
-	text-align: center;
-	align-items: center;
-	justify-content: flex-start;
-	display: flex;
-	flex-direction: column;
+// .nav-menu__logo {
+// 	margin: 20px 0 0 20px;
+// 	text-align: center;
+// 	align-items: center;
+// 	justify-content: flex-start;
+// 	display: flex;
+// 	flex-direction: column;
   
-  }
-  .menu-logo__title {
-	width: 100%;
-	height: 20px;
-	font-family: Caveat;
-	font-weight: 700;
-	font-size: clamp(1rem, 0.591rem + 2.05vw, 2.125rem);
-	line-height: 15px;
-	letter-spacing: 10px;
+//   }
+//   .menu-logo__title {
+// 	width: 100%;
+// 	height: 20px;
+// 	font-family: Caveat;
+// 	font-weight: 700;
+// 	font-size: clamp(1rem, 0.591rem + 2.05vw, 2.125rem);
+// 	line-height: 15px;
+// 	letter-spacing: 10px;
 	
 	
-	 a {
-		color: #000000;
-	}
-	 a:hover {
-		color: #ffee00;
-		transition: all 500ms ease; 
-	 }
-  }
-  .menu-logo__line {
-	height: 30px;
-	img {
-		max-width: 400px;
-	}
-  }
-  @media screen and (max-width: 555px) {
-	.menu-logo__line {
-		height: 20px;
+// 	 a {
+// 		color: #000000;
+// 	}
+// 	 a:hover {
+// 		color: #ffee00;
+// 		transition: all 500ms ease; 
+// 	 }
+//   }
+//   .menu-logo__line {
+// 	height: 30px;
+// 	img {
+// 		max-width: 400px;
+// 	}
+//   }
+//   @media screen and (max-width: 555px) {
+// 	.menu-logo__line {
+// 		height: 20px;
 		
-	 img {
-		max-width: 200px;
-	}
-}
-	.nav-menu__logo {
-		margin: 0px 0px 0px 20px;
-	}
-	.header {
-		display: flex;
-		justify-content: space-around;
-		padding: 0;
-	}
-	.header-block {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		height: 90px;
-		width: 100%;
-		// padding: 0 2rem;
-	}
-  }
-  .menu-logo__subtitle {
-	font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
-  }
-  .menu-logo__subtitle:hover {
-	color: #ffee00;
-	transition: all 500ms ease;
-  }
+// 	 img {
+// 		max-width: 200px;
+// 	}
+// }
+// 	.nav-menu__logo {
+// 		margin: 0px 0px 0px 20px;
+// 	}
+// 	.header {
+// 		display: flex;
+// 		justify-content: space-around;
+// 		padding: 0;
+// 	}
+// 	.header-block {
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+// 		height: 90px;
+// 		width: 100%;
+// 		// padding: 0 2rem;
+// 	}
+//   }
+//   .menu-logo__subtitle {
+// 	font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+//   }
+//   .menu-logo__subtitle:hover {
+// 	color: #ffee00;
+// 	transition: all 500ms ease;
+//   }
  
-  @media only screen and (max-width: 1024px) {
-	header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-		display: block;
-	}
+//   @media only screen and (max-width: 1024px) {
+// 	header .nav-btn {
+// 		visibility: visible;
+// 		opacity: 1;
+// 		display: block;
+// 	}
 
-	header nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-		transition: 1s;
-		transform: translateY(-100vh);
-	}
+// 	header nav {
+// 		position: fixed;
+// 		top: 0;
+// 		left: 0;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+// 		justify-content: center;
+// 		gap: 1.5rem;
+// 		background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+// 		transition: 1s;
+// 		transform: translateY(-100vh);
+// 	}
 
-	header .responsive_nav {
-		transform: none;
-	}
+// 	header .responsive_nav {
+// 		transform: none;
+// 	}
 
-	nav .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+// 	nav .nav-close-btn {
+// 		position: absolute;
+// 		top: 2rem;
+// 		right: 2rem;
+// 	}
 
-	nav a {
-		font-size: 1.5rem;
-	}
-}
+// 	nav-item a {
+// 		font-size: 1.5rem;
+// 	}
+// }
 
-.responsive_nav {
-	z-index: 11;
-}
+// .responsive_nav {
+// 	z-index: 11;
+// }
+
+
+// .header .navbar {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     max-width: 1240px;
+//     margin: auto;
+//     height: 100%;
+//     padding: 0 1rem;
+// }
+
+// .header .nav-menu a {
+//     color: #000000;
+// }
+
+// // .header .navbar img {
+// //     width: 250px;
+// //     height: auto;
+// // }
+
+// .header .nav-menu {
+//     display: flex;
+// }
+
+// .header .nav-item {
+//     padding: 1rem;
+//     font-weight: 500;
+// }
+
+// .header .nav-item a:hover {
+//     padding-bottom: 12px;
+//     border-bottom: 3px solid var(--secondary-color);
+// }
+
+// .hamburger {
+//     display: none;
+// }
+
+
+// @media screen and (max-width:940px) {
+//     .header {
+//         max-width: 100%;
+//         // background-color: rgba(0,0,0,.9);
+//     }
+
+//     .header .navbar {
+//         max-width: 100%;
+//     }
+
+//     .hamburger {
+//         display: block;
+//     }
+
+//     .nav-menu {
+//         position: fixed;
+//         left: -100%;
+//         top: 90px;
+//         flex-direction: column;
+//         background: rgb(238,174,202);
+//         width: 100%;
+//         height: 90vh;
+//         z-index: 999;
+//         text-align: center;
+//         transition: .3s;
+//     }
+
+//     .nav-menu.active {
+//         left: 0;
+//     }
+
+//     .nav-item {
+//         margin: 1.5rem 0;
+//     }
+
+//     // .header .navbar img {
+//     //     width: 150px;
+//     // }
+// }

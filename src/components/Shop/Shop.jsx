@@ -8,7 +8,7 @@ import ShopPages from "../pages/ShopPages";
 
 const Shop = () => {
     return (
-        <section className="shop">
+        <section className="shop" id="shop">
         <h2 className="shop-title block-title">— Магазин</h2>
         <div className="shop-cart">
             <div className="shop-cart_item">

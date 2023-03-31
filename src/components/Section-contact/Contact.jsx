@@ -6,7 +6,7 @@ import LogoVK from "../../img/logoVK.svg";
 
 const Contact = () => {
     return (
-        <section className="section-contact" >
+        <section className="section-contact" id="contact">
         <h2 className="contact-title block-title"> — КОНТАКТЫ</h2>
         <div className="section-block-all">
             {/* <div className="section-contact-content"> */}
