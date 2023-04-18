@@ -4,6 +4,8 @@ import Carousel from "./Carousel";
 import photoCollage from '../../img/about_photo_collage.jpg';
 import aboutPhoto from '../../img/about_photo.jpg';
 import bg_img_1 from '../../img/background/01.png';
+
+import ScrollToTop from "react-scroll-to-top";
 // SLIDER
 
 // import slide_1 from '../../img/slider/image-1.jpg';
@@ -49,6 +51,11 @@ const SectionAbout = () => {
                 alt="#"
             />
         </div> */}
+        <div className="scrollToTop">
+            <ScrollToTop class="scroll-to-top" smooth color="rgba(238,174,202,1)"
+            viewBox="0 0 24 24"
+            svgPath="m3.293 18.293 1.414 1.414L12 12.414l7.293 7.293 1.414-1.414L12 9.586l-8.707 8.707z"/>
+        </div>
     </section>
     );
 }

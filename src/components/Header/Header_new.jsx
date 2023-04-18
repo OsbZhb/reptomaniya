@@ -23,9 +23,9 @@ const Header_new = () => {
 					<p className="menu-logo__title">
 						<Link to="#">Рептомания</Link>
 					</p>
-					{/* <div className="menu-logo__line">
-					</div> */}
-                    <img className="menu-logo__line" src={headerLine} alt="" />
+                <div className="menu-logo__line">
+					<img src={headerLine} alt="#" />
+				</div>
 					<p className="menu-logo__subtitle">
 						частный питомник экзотических животных
 					</p>
