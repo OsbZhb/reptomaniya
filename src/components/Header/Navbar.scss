@@ -7,7 +7,7 @@
     z-index: 10;
     transition: .3s ease-in;
     overflow: hidden;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(148, 187, 233);
     margin-bottom: 25px;
 }
 
@@ -103,7 +103,8 @@
 @media screen and (max-width:1005px) {
     .header {
         max-width: 100%;
-        background-color: rgba(0,0,0,.9);
+        // background-color: rgba(0,0,0,.9);
+        background: rgba(148,187,233,1);
     }
 
     .header .navbar {
@@ -130,7 +131,7 @@
         left: -100%;
         top: 110px;
         flex-direction: column;
-        background-color: rgba(0,0,0,.9);
+        background-color: rgba(148,187,233,1);
         width: 100%;
         height: 90vh;
         z-index: 999;
