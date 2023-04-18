@@ -16,10 +16,9 @@
     align-items: center;
     display: flex;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
     max-width: 1240px;
-    gap: 20px;
     padding: 0 1rem;
 }
 
@@ -108,7 +107,18 @@
     }
 
     .header .navbar {
+        // max-width: 100%;
+    }
+    .header .navbar {
         max-width: 100%;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        margin: auto;
+        max-width: 1240px;
+        gap: 20px;
+        padding: 0 1rem;
     }
 
     .hamburger {

@@ -52,7 +52,7 @@ const SectionAbout = () => {
             />
         </div> */}
         <div className="scrollToTop">
-            <ScrollToTop class="scroll-to-top" smooth color="rgba(238,174,202,1)"
+            <ScrollToTop class="scroll-to-top" smooth color="#6f00ff"
             viewBox="0 0 24 24"
             svgPath="m3.293 18.293 1.414 1.414L12 12.414l7.293 7.293 1.414-1.414L12 9.586l-8.707 8.707z"/>
         </div>
